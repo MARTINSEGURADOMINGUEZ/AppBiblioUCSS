@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ceups.appprueba.Fragments.EstudianteFragment">
+
+    <com.github.snowdream.android.widget.SmartImageView
+        android:id="@+id/smrtVw"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/smrtVw"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="35dp"
+        android:text="Nombre" />
+
+    <TextView
+        android:id="@+id/lblCarrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblNombre"
+        android:layout_below="@+id/lblNombre"
+        android:layout_marginTop="10dp"
+        android:text="Carrera" />
+
+    <TextView
+        android:id="@+id/lblCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblCarrera"
+        android:layout_below="@+id/lblCarrera"
+        android:layout_marginTop="10dp"
+        android:text="Correo" />
+
+    <TextView
+        android:id="@+id/lblEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblCorreo"
+        android:layout_below="@+id/lblCorreo"
+        android:layout_marginTop="10dp"
+        android:text="Edad" />
+
+    <TextView
+        android:id="@+id/lblCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ciclo Academico"
+        android:layout_below="@+id/lblEdad"
+        android:layout_alignStart="@+id/lblEdad" />
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ceups.appprueba.Fragments.BienvenidaFragment">
+
+
+    <TextView
+        android:id="@+id/lblBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="BIBLIOTECA VIRTUAL UCSS" />
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblBienvenido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="NOTICIAS OCTUBRE : 06/10/2017" />
+
+    <ListView
+        android:id="@+id/LSTVWNEWS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblFecha"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

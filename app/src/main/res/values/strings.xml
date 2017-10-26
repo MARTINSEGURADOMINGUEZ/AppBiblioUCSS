@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WebInfovUCSS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Cerrar Sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- OPCIONES PARA EL MENU CONTEXTUAL EN E LISTVIEW -->
+    <string name="action_delete">Eliminar Reserva</string>
+    <!-- ////////////////////////////////////////////// -->
+
+    <string-array name="criterio">
+        <item>Nombre</item>
+        <item>Autor</item>
+        <item>Categoria</item>
+    </string-array>
+    <string name="title_activity_detalle_libro">DetalleLibro</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_splash_screnn">WebInfovUCSS</string>
+
+</resources>
